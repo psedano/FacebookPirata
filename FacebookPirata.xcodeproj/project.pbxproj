@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B5B766E3DF912D1B55B8558 /* Pods_FacebookPirata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5600322F22FC9AEE2B6B7CEB /* Pods_FacebookPirata.framework */; };
+		CA35926B1DD0E25A0044EEA5 /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA35926A1DD0E25A0044EEA5 /* LoginHeaderView.swift */; };
+		CA35926D1DD0E5D30044EEA5 /* SexyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA35926C1DD0E5D30044EEA5 /* SexyTextField.swift */; };
+		CA3592701DD0E6100044EEA5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA35926F1DD0E6100044EEA5 /* Constants.swift */; };
+		CA3592721DD0EF670044EEA5 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3592711DD0EF670044EEA5 /* LoginButton.swift */; };
+		CA3592771DD0F4DE0044EEA5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3592731DD0F4DE0044EEA5 /* Bolts.framework */; };
+		CA3592781DD0F4DE0044EEA5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3592741DD0F4DE0044EEA5 /* FBSDKCoreKit.framework */; };
+		CA3592791DD0F4DE0044EEA5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3592751DD0F4DE0044EEA5 /* FBSDKLoginKit.framework */; };
+		CA35927A1DD0F4DE0044EEA5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3592761DD0F4DE0044EEA5 /* FBSDKShareKit.framework */; };
+		CA65204B1DCCF61400E6BB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65204A1DCCF61400E6BB34 /* AppDelegate.swift */; };
+		CA65204D1DCCF61400E6BB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65204C1DCCF61400E6BB34 /* ViewController.swift */; };
+		CA6520501DCCF61400E6BB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA65204E1DCCF61400E6BB34 /* Main.storyboard */; };
+		CA6520521DCCF61400E6BB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6520511DCCF61400E6BB34 /* Assets.xcassets */; };
+		CA6520551DCCF61400E6BB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6520531DCCF61400E6BB34 /* LaunchScreen.storyboard */; };
+		CA6520601DCCF61500E6BB34 /* FacebookPirataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65205F1DCCF61500E6BB34 /* FacebookPirataTests.swift */; };
+		CA65206B1DCCF61500E6BB34 /* FacebookPirataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65206A1DCCF61500E6BB34 /* FacebookPirataUITests.swift */; };
+		CA6520791DCCF66500E6BB34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA6520781DCCF66500E6BB34 /* GoogleService-Info.plist */; };
+		D44CA96398A0364E296C8147 /* Pods_FacebookPirataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C3675A04BD70D2CBF7F24C /* Pods_FacebookPirataTests.framework */; };
+		EFE0DD2266A7B61D13065567 /* Pods_FacebookPirataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B825754F1ED956E5F843A8D /* Pods_FacebookPirataUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA65205C1DCCF61500E6BB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA65203F1DCCF61400E6BB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6520461DCCF61400E6BB34;
+			remoteInfo = FacebookPirata;
+		};
+		CA6520671DCCF61500E6BB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA65203F1DCCF61400E6BB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6520461DCCF61400E6BB34;
+			remoteInfo = FacebookPirata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52C3675A04BD70D2CBF7F24C /* Pods_FacebookPirataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookPirataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5600322F22FC9AEE2B6B7CEB /* Pods_FacebookPirata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookPirata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB737ACC4DB4F19F80648EF /* Pods-FacebookPirata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPirata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPirata/Pods-FacebookPirata.debug.xcconfig"; sourceTree = "<group>"; };
+		6B825754F1ED956E5F843A8D /* Pods_FacebookPirataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookPirataUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C39E118A9BF025A147B05E /* Pods-FacebookPirata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPirata.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPirata/Pods-FacebookPirata.release.xcconfig"; sourceTree = "<group>"; };
+		CA35926A1DD0E25A0044EEA5 /* LoginHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		CA35926C1DD0E5D30044EEA5 /* SexyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SexyTextField.swift; sourceTree = "<group>"; };
+		CA35926F1DD0E6100044EEA5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA3592711DD0EF670044EEA5 /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		CA3592731DD0F4DE0044EEA5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CA3592741DD0F4DE0044EEA5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CA3592751DD0F4DE0044EEA5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CA3592761DD0F4DE0044EEA5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CA6520471DCCF61400E6BB34 /* FacebookPirata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookPirata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA65204A1DCCF61400E6BB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA65204C1DCCF61400E6BB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA65204F1DCCF61400E6BB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6520511DCCF61400E6BB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6520541DCCF61400E6BB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6520561DCCF61400E6BB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA65205B1DCCF61500E6BB34 /* FacebookPirataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookPirataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA65205F1DCCF61500E6BB34 /* FacebookPirataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPirataTests.swift; sourceTree = "<group>"; };
+		CA6520611DCCF61500E6BB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6520661DCCF61500E6BB34 /* FacebookPirataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookPirataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA65206A1DCCF61500E6BB34 /* FacebookPirataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPirataUITests.swift; sourceTree = "<group>"; };
+		CA65206C1DCCF61500E6BB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6520781DCCF66500E6BB34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA65207A1DCD035300E6BB34 /* FacebookPirata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FacebookPirata.entitlements; sourceTree = "<group>"; };
+		D58859BB713D4A8BCFE958D3 /* Pods-FacebookPirataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPirataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPirataTests/Pods-FacebookPirataTests.release.xcconfig"; sourceTree = "<group>"; };
+		D90EB9AE9021B16CAD5DDFD3 /* Pods-FacebookPirataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPirataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPirataUITests/Pods-FacebookPirataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED60B1AB8195CA21CF0C89DD /* Pods-FacebookPirataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPirataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPirataTests/Pods-FacebookPirataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5D0F161CB3669CA56CE405 /* Pods-FacebookPirataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPirataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPirataUITests/Pods-FacebookPirataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6520441DCCF61400E6BB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5B766E3DF912D1B55B8558 /* Pods_FacebookPirata.framework in Frameworks */,
+				CA3592781DD0F4DE0044EEA5 /* FBSDKCoreKit.framework in Frameworks */,
+				CA35927A1DD0F4DE0044EEA5 /* FBSDKShareKit.framework in Frameworks */,
+				CA3592791DD0F4DE0044EEA5 /* FBSDKLoginKit.framework in Frameworks */,
+				CA3592771DD0F4DE0044EEA5 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6520581DCCF61500E6BB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44CA96398A0364E296C8147 /* Pods_FacebookPirataTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6520631DCCF61500E6BB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE0DD2266A7B61D13065567 /* Pods_FacebookPirataUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ED955E5EB5B79D60975884D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3592731DD0F4DE0044EEA5 /* Bolts.framework */,
+				CA3592741DD0F4DE0044EEA5 /* FBSDKCoreKit.framework */,
+				CA3592751DD0F4DE0044EEA5 /* FBSDKLoginKit.framework */,
+				CA3592761DD0F4DE0044EEA5 /* FBSDKShareKit.framework */,
+				5600322F22FC9AEE2B6B7CEB /* Pods_FacebookPirata.framework */,
+				52C3675A04BD70D2CBF7F24C /* Pods_FacebookPirataTests.framework */,
+				6B825754F1ED956E5F843A8D /* Pods_FacebookPirataUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA3592671DD0E2170044EEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA35926A1DD0E25A0044EEA5 /* LoginHeaderView.swift */,
+				CA35926C1DD0E5D30044EEA5 /* SexyTextField.swift */,
+				CA3592711DD0EF670044EEA5 /* LoginButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA3592681DD0E21F0044EEA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA65204C1DCCF61400E6BB34 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CA3592691DD0E2280044EEA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CA35926E1DD0E6020044EEA5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CA35926F1DD0E6100044EEA5 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CA65203E1DCCF61400E6BB34 = {
+			isa = PBXGroup;
+			children = (
+				CA6520491DCCF61400E6BB34 /* FacebookPirata */,
+				CA65205E1DCCF61500E6BB34 /* FacebookPirataTests */,
+				CA6520691DCCF61500E6BB34 /* FacebookPirataUITests */,
+				CA6520481DCCF61400E6BB34 /* Products */,
+				E7C7DE75BE5A56A0C6CD3362 /* Pods */,
+				4ED955E5EB5B79D60975884D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6520481DCCF61400E6BB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6520471DCCF61400E6BB34 /* FacebookPirata.app */,
+				CA65205B1DCCF61500E6BB34 /* FacebookPirataTests.xctest */,
+				CA6520661DCCF61500E6BB34 /* FacebookPirataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6520491DCCF61400E6BB34 /* FacebookPirata */ = {
+			isa = PBXGroup;
+			children = (
+				CA35926E1DD0E6020044EEA5 /* Util */,
+				CA3592691DD0E2280044EEA5 /* Model */,
+				CA3592681DD0E21F0044EEA5 /* Controller */,
+				CA3592671DD0E2170044EEA5 /* View */,
+				CA65207A1DCD035300E6BB34 /* FacebookPirata.entitlements */,
+				CA65204A1DCCF61400E6BB34 /* AppDelegate.swift */,
+				CA65204E1DCCF61400E6BB34 /* Main.storyboard */,
+				CA6520781DCCF66500E6BB34 /* GoogleService-Info.plist */,
+				CA6520511DCCF61400E6BB34 /* Assets.xcassets */,
+				CA6520531DCCF61400E6BB34 /* LaunchScreen.storyboard */,
+				CA6520561DCCF61400E6BB34 /* Info.plist */,
+			);
+			path = FacebookPirata;
+			sourceTree = "<group>";
+		};
+		CA65205E1DCCF61500E6BB34 /* FacebookPirataTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA65205F1DCCF61500E6BB34 /* FacebookPirataTests.swift */,
+				CA6520611DCCF61500E6BB34 /* Info.plist */,
+			);
+			path = FacebookPirataTests;
+			sourceTree = "<group>";
+		};
+		CA6520691DCCF61500E6BB34 /* FacebookPirataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA65206A1DCCF61500E6BB34 /* FacebookPirataUITests.swift */,
+				CA65206C1DCCF61500E6BB34 /* Info.plist */,
+			);
+			path = FacebookPirataUITests;
+			sourceTree = "<group>";
+		};
+		E7C7DE75BE5A56A0C6CD3362 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BB737ACC4DB4F19F80648EF /* Pods-FacebookPirata.debug.xcconfig */,
+				A6C39E118A9BF025A147B05E /* Pods-FacebookPirata.release.xcconfig */,
+				ED60B1AB8195CA21CF0C89DD /* Pods-FacebookPirataTests.debug.xcconfig */,
+				D58859BB713D4A8BCFE958D3 /* Pods-FacebookPirataTests.release.xcconfig */,
+				FB5D0F161CB3669CA56CE405 /* Pods-FacebookPirataUITests.debug.xcconfig */,
+				D90EB9AE9021B16CAD5DDFD3 /* Pods-FacebookPirataUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6520461DCCF61400E6BB34 /* FacebookPirata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA65206F1DCCF61500E6BB34 /* Build configuration list for PBXNativeTarget "FacebookPirata" */;
+			buildPhases = (
+				C8C2436D986EA1DC02F6A3A4 /* [CP] Check Pods Manifest.lock */,
+				CA6520431DCCF61400E6BB34 /* Sources */,
+				CA6520441DCCF61400E6BB34 /* Frameworks */,
+				CA6520451DCCF61400E6BB34 /* Resources */,
+				356C6A24889E579F4A21767F /* [CP] Embed Pods Frameworks */,
+				55C8F349AC66BCA76D058D1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookPirata;
+			productName = FacebookPirata;
+			productReference = CA6520471DCCF61400E6BB34 /* FacebookPirata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA65205A1DCCF61500E6BB34 /* FacebookPirataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6520721DCCF61500E6BB34 /* Build configuration list for PBXNativeTarget "FacebookPirataTests" */;
+			buildPhases = (
+				8561DC42472493F8ECBDFE00 /* [CP] Check Pods Manifest.lock */,
+				CA6520571DCCF61500E6BB34 /* Sources */,
+				CA6520581DCCF61500E6BB34 /* Frameworks */,
+				CA6520591DCCF61500E6BB34 /* Resources */,
+				EDD081A88A257D78DFECB721 /* [CP] Embed Pods Frameworks */,
+				CEA0FF56956EE65B03753185 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA65205D1DCCF61500E6BB34 /* PBXTargetDependency */,
+			);
+			name = FacebookPirataTests;
+			productName = FacebookPirataTests;
+			productReference = CA65205B1DCCF61500E6BB34 /* FacebookPirataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA6520651DCCF61500E6BB34 /* FacebookPirataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6520751DCCF61500E6BB34 /* Build configuration list for PBXNativeTarget "FacebookPirataUITests" */;
+			buildPhases = (
+				798AC080F7237944F577746B /* [CP] Check Pods Manifest.lock */,
+				CA6520621DCCF61500E6BB34 /* Sources */,
+				CA6520631DCCF61500E6BB34 /* Frameworks */,
+				CA6520641DCCF61500E6BB34 /* Resources */,
+				DE6FD4C4FD4055C080B7FB96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6520681DCCF61500E6BB34 /* PBXTargetDependency */,
+			);
+			name = FacebookPirataUITests;
+			productName = FacebookPirataUITests;
+			productReference = CA6520661DCCF61500E6BB34 /* FacebookPirataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA65203F1DCCF61400E6BB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Pablo Sedano";
+				TargetAttributes = {
+					CA6520461DCCF61400E6BB34 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2Z3787L734;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CA65205A1DCCF61500E6BB34 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA6520461DCCF61400E6BB34;
+					};
+					CA6520651DCCF61500E6BB34 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA6520461DCCF61400E6BB34;
+					};
+				};
+			};
+			buildConfigurationList = CA6520421DCCF61400E6BB34 /* Build configuration list for PBXProject "FacebookPirata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA65203E1DCCF61400E6BB34;
+			productRefGroup = CA6520481DCCF61400E6BB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6520461DCCF61400E6BB34 /* FacebookPirata */,
+				CA65205A1DCCF61500E6BB34 /* FacebookPirataTests */,
+				CA6520651DCCF61500E6BB34 /* FacebookPirataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6520451DCCF61400E6BB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6520551DCCF61400E6BB34 /* LaunchScreen.storyboard in Resources */,
+				CA6520791DCCF66500E6BB34 /* GoogleService-Info.plist in Resources */,
+				CA6520521DCCF61400E6BB34 /* Assets.xcassets in Resources */,
+				CA6520501DCCF61400E6BB34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6520591DCCF61500E6BB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6520641DCCF61500E6BB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		356C6A24889E579F4A21767F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookPirata/Pods-FacebookPirata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C8F349AC66BCA76D058D1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookPirata/Pods-FacebookPirata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		798AC080F7237944F577746B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8561DC42472493F8ECBDFE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C2436D986EA1DC02F6A3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA0FF56956EE65B03753185 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookPirataTests/Pods-FacebookPirataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6FD4C4FD4055C080B7FB96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookPirataUITests/Pods-FacebookPirataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD081A88A257D78DFECB721 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookPirataTests/Pods-FacebookPirataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6520431DCCF61400E6BB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3592701DD0E6100044EEA5 /* Constants.swift in Sources */,
+				CA3592721DD0EF670044EEA5 /* LoginButton.swift in Sources */,
+				CA35926D1DD0E5D30044EEA5 /* SexyTextField.swift in Sources */,
+				CA65204D1DCCF61400E6BB34 /* ViewController.swift in Sources */,
+				CA35926B1DD0E25A0044EEA5 /* LoginHeaderView.swift in Sources */,
+				CA65204B1DCCF61400E6BB34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6520571DCCF61500E6BB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6520601DCCF61500E6BB34 /* FacebookPirataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6520621DCCF61500E6BB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA65206B1DCCF61500E6BB34 /* FacebookPirataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA65205D1DCCF61500E6BB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6520461DCCF61400E6BB34 /* FacebookPirata */;
+			targetProxy = CA65205C1DCCF61500E6BB34 /* PBXContainerItemProxy */;
+		};
+		CA6520681DCCF61500E6BB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6520461DCCF61400E6BB34 /* FacebookPirata */;
+			targetProxy = CA6520671DCCF61500E6BB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA65204E1DCCF61400E6BB34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA65204F1DCCF61400E6BB34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6520531DCCF61400E6BB34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6520541DCCF61400E6BB34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA65206D1DCCF61500E6BB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA65206E1DCCF61500E6BB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6520701DCCF61500E6BB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB737ACC4DB4F19F80648EF /* Pods-FacebookPirata.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FacebookPirata/FacebookPirata.entitlements;
+				DEVELOPMENT_TEAM = 2Z3787L734;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FacebookPirata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.FacebookPirata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA6520711DCCF61500E6BB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C39E118A9BF025A147B05E /* Pods-FacebookPirata.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FacebookPirata/FacebookPirata.entitlements;
+				DEVELOPMENT_TEAM = 2Z3787L734;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FacebookPirata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.FacebookPirata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CA6520731DCCF61500E6BB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED60B1AB8195CA21CF0C89DD /* Pods-FacebookPirataTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookPirataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.FacebookPirataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookPirata.app/FacebookPirata";
+			};
+			name = Debug;
+		};
+		CA6520741DCCF61500E6BB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58859BB713D4A8BCFE958D3 /* Pods-FacebookPirataTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookPirataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.FacebookPirataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookPirata.app/FacebookPirata";
+			};
+			name = Release;
+		};
+		CA6520761DCCF61500E6BB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5D0F161CB3669CA56CE405 /* Pods-FacebookPirataUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FacebookPirataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.FacebookPirataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FacebookPirata;
+			};
+			name = Debug;
+		};
+		CA6520771DCCF61500E6BB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90EB9AE9021B16CAD5DDFD3 /* Pods-FacebookPirataUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FacebookPirataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.FacebookPirataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FacebookPirata;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6520421DCCF61400E6BB34 /* Build configuration list for PBXProject "FacebookPirata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA65206D1DCCF61500E6BB34 /* Debug */,
+				CA65206E1DCCF61500E6BB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA65206F1DCCF61500E6BB34 /* Build configuration list for PBXNativeTarget "FacebookPirata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6520701DCCF61500E6BB34 /* Debug */,
+				CA6520711DCCF61500E6BB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6520721DCCF61500E6BB34 /* Build configuration list for PBXNativeTarget "FacebookPirataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6520731DCCF61500E6BB34 /* Debug */,
+				CA6520741DCCF61500E6BB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6520751DCCF61500E6BB34 /* Build configuration list for PBXNativeTarget "FacebookPirataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6520761DCCF61500E6BB34 /* Debug */,
+				CA6520771DCCF61500E6BB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA65203F1DCCF61400E6BB34 /* Project object */;
+}
